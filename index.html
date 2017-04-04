@@ -1,0 +1,40 @@
+<!doctype html>
+
+<!--Programmer: Luke Darrow-->
+
+<html lang='en'>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css">
+	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+		<title>Fibonacci Clicker</title>
+	</head>
+	
+	<script>
+		document.addEventListener("click", myFibonacci);
+		var n = 2;
+		function myFibonacci() {
+			var a = 1, b = 0, num = n, temp;
+			while(num >= 0)
+			{
+				temp = a;
+				a = a + b;
+				b = temp;
+				num--;
+			}
+			document.getElementById("number").innerHTML = b;
+			n++;
+		};
+	</script>
+	<h1>FIBONACCI CLICKER</h1>
+	<h2 id="number">1</h2>
+	<body id="text">The Fibonacci Sequence is the series of numbers:</br>
+	0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...</br>
+	The next number is found by adding up the two numbers before it.
+	</body>
+	<footer>
+		<p>Author: Luke Darrow <a href="https://github.com/lldarrow/">GitHub</a></p>
+		<p>Contact information: <a href="lukedarrow360@gmail.com">
+		lukedarrow360@gmail.com</a>.</p>
+	</footer>
+</html>

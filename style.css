@@ -1,0 +1,42 @@
+body {
+	font-family: 'Lato';
+	font-size: 22px;
+	text-align: center;
+}
+h1 {
+    font-family: 'Lato';
+	font-size: 48px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Lato';
+	font-size: 60px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Lato';
+	font-size: 16px;
+	text-align: center;
+	margin: 0px;
+}
+
+footer {
+	font-family: 'Lato';
+	font-size: 16px;
+	text-align: center;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	background-color: #efefef
+}
+
+#images {
+	margin: 0 auto;
+	padding 0;
+	width: 800px;
+	height: 600px;
+	list-style-type: none;
+}
